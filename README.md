@@ -3,7 +3,7 @@ ABSTRACT/ Outline
 This Mini project titled “Emotion Recognition from Text” has the objective of recognizing, evaluating and determining the emotion or sentiment of a user in the text entered. This is a NLP (Natural Language Processing) Task as it deals with language and manipulation, evaluation on judging it more precisely it is domain of Opinion Mining or Sentiment Analysis. This project has numerous applications the simplest is to recognize emotion from text while it also finds application in tasks like recommender system, political predictions, Feature extraction where this task of polarity evaluation is a basic task.  
 
 
-1	the Approach using sentiwordnet
+###the Approach using sentiwordnet
 
 This approach uses sentiwordnet to calculate scores and the flow is as follows:
 
@@ -11,13 +11,13 @@ This approach uses sentiwordnet to calculate scores and the flow is as follows:
 
 
 
-1.1	Preprocessing Of text
+###Preprocessing Of text
 
 The tasks included in the preprocessing of text are:
 ⎝	String tokenizing
 ⎝	POS tagging
 ⎝	Stemming and Lemmatizing
-1.1.1	String Tokenizing 
+###String Tokenizing 
 
 Separating each word in a document as a single entity that is a “Token”
 Java has class java.util.StringTokenizer
@@ -30,7 +30,7 @@ For example:
 	is
 	Barkha
 
-1.1.2	POS (Part Of Speech) Tagging
+###POS (Part Of Speech) Tagging
 
 Part Of Speech Tagging is Tagging a word with it’s part of speech.
 Example:
@@ -42,7 +42,7 @@ Example:
      Adverb “_RB”
      Verb “_VB”
 
-1.1.3	Stemming and Lemmatizing Text
+###Stemming and Lemmatizing Text
 
 This tasks is to reduce words to their base forms.
  Like:         am, are, and is to be     
@@ -57,12 +57,12 @@ Step 5: Takes off -ant, -ence, etc. "
 For lemmatizing the Stanford’s NLP lemmatizer is used.
 
 
-1.2	Extracting scores from sentiwordnet
+###Extracting scores from sentiwordnet
 
 For extracting score of a word the sentiwordnet file is read then a Hash Map is used to store keys (Words) and values (scores). A hash map is a structure in java which is a combination of set and list where set cannot have duplicate values and list can have duplicate values. A method named “extract” is made that has a constructor which takes the word and its part of speech as parameters returning the score of the word.
 Here the score extracted is 
 				Positive weight - Negative weight  
-1.3	Evaluating Final Sentiment
+###Evaluating Final Sentiment
 
 Text is taken as input.
 The text is normalized i.e. preprocessed.
@@ -76,7 +76,11 @@ Giving
                If (|negative|>positive) Overall Emotion is Negative
 	        Else Overall Emotion is mixed
 
-1.4	Working of this approach
+###Working of this approach
+
+
+<img width="635" alt="screen shot 2017-11-05 at 3 26 04 pm" src="https://user-images.githubusercontent.com/13784657/32419334-df543f80-c23d-11e7-844a-b4cf1b6d5c5d.png">
+<img width="706" alt="screen shot 2017-11-05 at 3 26 23 pm" src="https://user-images.githubusercontent.com/13784657/32419335-e1cb643c-c23d-11e7-88ec-79f83215b669.png">
 
 
 
@@ -109,9 +113,7 @@ Giving
 
 
 
-
-
-1.5	Limitations Of This Approach
+###Limitations Of This Approach
 
 υ	Sarcastic Sentences :
                             Example: "What a wonderful car, stopped working in a day? 
