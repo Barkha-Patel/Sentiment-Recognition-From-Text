@@ -1,5 +1,6 @@
 # Sentiment-Recognition-From-Text
-ABSTRACT/ Outline
+
+### ABSTRACT/ OUTLINE
 This Mini project titled “Emotion Recognition from Text” has the objective of recognizing, evaluating and determining the emotion or sentiment of a user in the text entered. This is a NLP (Natural Language Processing) Task as it deals with language and manipulation, evaluation on judging it more precisely it is domain of Opinion Mining or Sentiment Analysis. This project has numerous applications the simplest is to recognize emotion from text while it also finds application in tasks like recommender system, political predictions, Feature extraction where this task of polarity evaluation is a basic task.  
 
 
