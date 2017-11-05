@@ -7,6 +7,7 @@ This Mini project titled “Emotion Recognition from Text” has the objective o
 
 This approach uses sentiwordnet to calculate scores and the flow is as follows:
 
+<img width="660" alt="screen shot 2017-11-05 at 3 25 38 pm" src="https://user-images.githubusercontent.com/13784657/32419324-c23a3cb0-c23d-11e7-99fc-5e8655cde1ab.png">
 
 
 
